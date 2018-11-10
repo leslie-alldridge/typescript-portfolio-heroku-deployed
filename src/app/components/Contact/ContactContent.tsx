@@ -1,8 +1,8 @@
-import * as React from "react";
-import { Media } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import * as style from "../../containers/App/style.css";
-const imageSrc = require("../../images/void2.png");
+import * as React from 'react';
+import { Media } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import * as style from '../../containers/App/style.css';
+import * as contactImg from '../../images/pimg.jpg';
 
 export class ContactContent extends React.Component {
   render() {
@@ -15,7 +15,7 @@ export class ContactContent extends React.Component {
                 className={style.imageCircle}
                 width={128}
                 height={128}
-                src={imageSrc}
+                src={contactImg}
                 alt="thumbnail"
               />
             </Media.Left>
@@ -64,7 +64,7 @@ export class ContactContent extends React.Component {
                 >
                   <FontAwesomeIcon
                     className={style.contactIcons}
-                    icon={["fab", "linkedin"]}
+                    icon={['fab', 'linkedin']}
                   />
                   LinkedIn
                 </a>
@@ -75,7 +75,7 @@ export class ContactContent extends React.Component {
                 >
                   <FontAwesomeIcon
                     className={style.contactIcons}
-                    icon={["fab", "github"]}
+                    icon={['fab', 'github']}
                   />
                   GitHub
                 </a>
