@@ -1,12 +1,41 @@
-# react-ts-webpack-boilerplate
-This is the ultimate lightweight boilerplate needed for a React application using typescript with webpack
+# Personal Portfolio (mobile friendly) Typescript
 
-npm -v
-5.5.1
+## Goals
 
-node -v
-v.9.4
+Recode my React application using Typescript and keeping their strict linting options on.
 
-run 'npm install'
+Learn the ways of Typescript.
 
-no cli needed .
+Gain experience in moving an app to a new platform from the ground up.
+
+### Todo
+
+visited ^ top links are turning darker color
+
+### Stack
+
+React
+
+Webpack
+
+Font Awesome
+
+Typescript
+
+Heroku (deploy)
+
+## Installation
+
+```
+$ yarn
+```
+
+## Running
+
+```
+$ yarn start
+```
+
+## Website
+
+TBA
