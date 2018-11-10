@@ -25,7 +25,7 @@ export class Portfolio extends React.Component {
             >
               <Thumbnail
                 className={style.port}
-                src="../../assets/new.png"
+                src="../../../assets/new.png"
                 alt="242x200"
                 href="https://backpack-tracker.herokuapp.com/"
                 target="_blank"
