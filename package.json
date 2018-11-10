@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "webpack -p && node server.js",
-    "start": "webpack -p && node server.js",
-    "build": "webpack -p --progress --colors",
+    "deploy": "webpack  && node server.js",
+    "start": "webpack  && node server.js",
+    "build": "webpack  --progress --colors",
     "prettier": "prettier --write \"src/**/*.{ts,tsx,css}\""
   },
   "license": "MIT",
