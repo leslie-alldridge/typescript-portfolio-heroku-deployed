@@ -1,4 +1,4 @@
-# Personal Portfolio (mobile friendly) Typescript
+# DEPLOYED VERSION Personal Portfolio (mobile friendly) Typescript
 
 ## Goals
 
