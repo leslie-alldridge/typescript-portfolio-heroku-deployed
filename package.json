@@ -6,7 +6,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "webpack -p && node server.js",
-    "start": "webpack-dev-server --mode development --hot --progress --color --port 3000 --open",
+    "start": "webpack -p && node server.js",
     "build": "webpack -p --progress --colors",
     "prettier": "prettier --write \"src/**/*.{ts,tsx,css}\""
   },
