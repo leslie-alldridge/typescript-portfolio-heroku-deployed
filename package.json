@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "webpack  && node server.js",
-    "start": "webpack  && node server.js",
+    "deploy": "webpack  && node index.js",
+    "start": "webpack  && node index.js",
     "dev": "nodemon --watch & webpack --watch --mode development",
     "build": "webpack  --progress --colors"
   },
