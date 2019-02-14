@@ -8,7 +8,8 @@
     "deploy": "webpack  && node index.js",
     "start": "webpack  && node index.js",
     "dev": "nodemon --watch & webpack --watch --mode development",
-    "build": "webpack  --progress --colors"
+    "build": "webpack  --progress --colors",
+    "heroku-postbuild": "echo Skip build on Heroku"
   },
   "license": "MIT",
   "dependencies": {
@@ -59,5 +60,6 @@
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "heroku-run-build-script": true
 }
